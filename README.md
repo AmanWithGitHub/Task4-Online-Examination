@@ -1,26 +1,69 @@
-Online Examination System
-This is a simple Online Examination System developed using Java Swing for the graphical user interface and MySQL for the backend database.
+📝 Online Examination System
 
-Features
-User Authentication: The system provides a secure login for users with a username and password. It validates credentials against a MySQL database.
+The Online Examination System is a simple yet effective application developed using Java Swing for the graphical user interface and MySQL for the backend database.
+It provides a complete solution for conducting online exams with secure login, user management, timed exams, randomized questions, and automatic scoring.
 
-User Profile Management: After logging in, users can view and update their name. They can also change their password. The changes are saved to the users table in the database.
+🚀 Features
+🔑 User Authentication
 
-Online Examination: Users can start a timed exam with multiple-choice questions.
+Secure login with username and password.
 
-Randomized Questions: Questions are loaded randomly from the database to ensure a different exam experience each time.
+Credentials validated against the MySQL database.
 
-Automatic Scoring: The system calculates the user's score automatically by comparing their answers to the correct answers stored in the database. The final score is then saved to the results table.
+👤 User Profile Management
 
-Timer: An exam timer provides a time limit for the user.
+View and update personal details (name).
 
-Technology Stack
-Language: Java.
+Change password (saved directly to the database).
 
-User Interface: Java Swing.
+📝 Online Examination
 
-Backend: MySQL Database.
+Start a timed multiple-choice exam.
 
-Connectivity: JDBC (Java Database Connectivity) Driver.
+Randomized questions are fetched from the database for a unique exam each time.
 
-Object-Oriented Design: The project is structured using multiple classes (User, Question, LoginFrame, ProfileFrame, ExamFrame, DatabaseManager) to manage different aspects of the application.
+Automatic scoring – answers are validated against the database, and results are saved.
+
+⏳ Timer
+
+Built-in exam timer to enforce a strict time limit.
+
+🗄️ Technology Stack
+
+Language: Java
+
+User Interface: Java Swing
+
+Database: MySQL
+
+Connectivity: JDBC (Java Database Connectivity) Driver
+
+Design: Object-Oriented (separate classes for each component)
+
+📂 Project Structure
+
+User.java – Represents user details and actions.
+
+Question.java – Handles exam questions.
+
+LoginFrame.java – Manages user login.
+
+ProfileFrame.java – Manages profile updates.
+
+ExamFrame.java – Conducts the exam.
+
+DatabaseManager.java – Handles database operations.
+
+🎯 Key Highlights
+
+Randomized questions for fairness.
+
+Automatic result calculation and storage.
+
+Clean object-oriented structure.
+
+Secure user authentication.
+
+🏆 Conclusion
+
+The Online Examination System provides a complete solution for digital exams, combining a robust MySQL database, Java Swing interface, and JDBC connectivity to create a reliable and user-friendly platform.
